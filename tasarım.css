@@ -1,0 +1,241 @@
+*{
+    box-sizing: border-box;
+}
+body{
+ 
+    background-image: url(img/back3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family:sans-serif;
+    text-align: center;
+    position: -webkit-sticky;
+}
+.menu{
+    background-color: rgb(100, 5, 100);
+    height:0px ;
+    width: 100% ;
+    font-display: flex;
+    justify-content: space-around;
+     font-family: sans-serif;
+    border-collapse:separate;
+    position: -webkit-sticky;
+
+
+}
+.menu a:hover{
+    opacity: 0.7;
+    visibility: visible;
+    color:  rgb(105, 5, 84);
+    position: -webkit-sticky;
+}
+a{
+    display: block;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 0;
+    color: white;
+    background-color: turquoise;
+    border-radius: 10px;
+    text-decoration: none;
+    border-collapse: collapse;
+    
+}
+
+
+.header{
+    display: block;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 30px;
+    background-color: turquoise;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0;
+    height: 35px;
+    color: white;
+    position: -webkit-sticky;
+
+}
+.first{
+    background-image: url(img/dancee.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.second{
+    background-color:darkcyan;
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
+    color: whitesmoke;
+    font-family: sans-serif;
+    padding: 1.px;
+    font-size: 25px;
+    position:-webkit-sticky;
+    text-decoration: none;
+    width: 900px;
+    margin: auto;
+    text-align: center;
+}  
+.sosyal{
+    width: 100%;
+    height: 20%;
+     background-color: rgb(105, 5, 84);
+     float: left;
+     list-style-image: none;
+     position: -webkit-sticky;
+     margin: 0px;
+     padding: 0px;
+
+     
+
+}
+.sosyal li{
+    list-style: none;
+    display: inline-block; 
+    block-size: auto;
+    list-style-type: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    padding-right: 0px;
+    cursor: pointer;
+    background-color: turquoise;
+    color: white;
+    margin: 0px 0px 1px 0px;
+    font-size: 21px;
+    font-family: sans-serif;
+    text-align: center;
+    -webkit-text-size-adjust: auto;
+    
+    
+}
+.sosyal li img{
+    width: 5%;
+    height: 5%;
+    align-items: center;
+    margin: 4px 4px;
+    font-size: 11px;
+    float: right;
+    position: -webkit-sticky;
+}
+.sosyal ul li a{
+    border-bottom: none;
+
+}
+    
+.sosyal a:hover{
+    opacity: 0.7;
+    visibility: visible;
+    color: rgb(105, 5, 84);
+}
+.third{
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 18px;
+    background-color:darkcyan;
+    position: -webkit-sticky;
+    background-position: center;
+    color: whitesmoke;
+    font-family: sans-serif;
+    padding: 1.px;
+    font-size: 25px;
+    position:-webkit-sticky;
+    text-decoration: none;
+    margin: auto;
+    width: 900px;
+    text-align: center;
+    
+
+}
+.resim1{
+    width: 10%;
+    height: 60%;
+    position: -webkit-sticky;
+    margin: auto;
+}
+
+.resim2{
+    
+    float: left;
+    left: 60px;
+    width: 30%;
+    position: -webkit-sticky;
+    padding:0 10px 10px 0;
+
+}
+.resim3{
+    padding: 0;
+    margin: auto;
+    position: -webkit-sticky;
+    width: 100%;
+    height: 40%;
+
+}
+@media only screen and (max-width:960px)
+{
+    .header{
+        background-color: rgb(100, 5, 100);
+        font-family: monospace;
+        font-size: 30px;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        color: cyan;
+}
+.menu{
+    background-color: rgb(100, 5, 100);
+    width: 50%;
+    font-family: monospace;
+    border-collapse: separate;
+    font-display: flex;
+    justify-content: space-around;
+}
+a{
+    background-color: rgb(100, 5, 100);
+    font-weight: bolder;
+    font-size: 15px;
+    color: cyan;
+    display: block;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 0;
+    border-collapse: collapse;
+}
+body{
+    background-image: url("img/back1.jpg");
+}
+.second{
+    text-align: center;
+    background-color:deepskyblue;
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
+    color: rgb(100, 5, 100);
+    font-family: sans-serif;
+    padding: 1.px;
+    font-size: 20px;
+    position:-webkit-sticky;
+    text-decoration: none;
+    margin: auto;
+}
+.sosyal{
+    background-color: darkslategray;
+}
+.resim3{
+   
+  object-fit:fill;
+  padding: 0;
+  object-position: center;
+  
+}
+}
